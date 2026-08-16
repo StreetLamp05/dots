@@ -87,6 +87,10 @@ deploy "niri" niri -- \
   "niri/config.kdl:$CONFIG/niri/config.kdl" \
   "niri/dms:$CONFIG/niri/dms"
 
+deploy "mango" mango -- \
+  "mango/config.conf:$CONFIG/mango/config.conf" \
+  "mango/dms:$CONFIG/mango/dms"
+
 deploy "alacritty" alacritty -- \
   "alacritty/alacritty.toml:$CONFIG/alacritty/alacritty.toml" \
   "alacritty/dank-theme.toml:$CONFIG/alacritty/dank-theme.toml"
