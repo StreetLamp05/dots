@@ -89,7 +89,8 @@ deploy "niri" niri -- \
 
 deploy "mango" mango -- \
   "mango/config.conf:$CONFIG/mango/config.conf" \
-  "mango/dms:$CONFIG/mango/dms"
+  "mango/dms:$CONFIG/mango/dms" \
+  "mango/scripts:$CONFIG/mango/scripts"
 
 deploy "alacritty" alacritty -- \
   "alacritty/alacritty.toml:$CONFIG/alacritty/alacritty.toml" \
